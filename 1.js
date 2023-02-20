@@ -7,10 +7,10 @@
 который получаем от функции, в консоль.
 */
 
-const number = +prompt('Введите число');
+// const number = +prompt('Введите число');
 
-const numberToCube = (num) => {
-    return num ** 3;
-}
+// const numberToCube = (num) => {
+//     return num ** 3;
+// };
 
-console.log(numberToCube(number));
+// console.log(numberToCube(number));
