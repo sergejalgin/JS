@@ -24,7 +24,7 @@ const number3 = +prompt('Введите третье число');
 //         max = num3;
 //     }
 //     return max;
-// }
+// };
 
 function maxNumber(num1, num2, num3) {
     return Math.max(num1, num2, num3);
