@@ -11,10 +11,14 @@ xxx
 xxxx
 xxxxx
 */
-let element = 'x';
-console.log(element);
+// let element = 'x';
+// console.log(element);
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0, element = ''; i < 20; i++) {
     console.log(element += "x");
-};
+}
+
+// for (let i = 0; i < 20; i++) {
+//     console.log(element += "x");
+// }
 
