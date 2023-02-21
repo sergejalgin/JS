@@ -17,7 +17,7 @@
 
 function randomArray(length = 5) {
     return Array.from(Array(length), () => Math.floor(Math.random() * 10));
-}
+};
 
 const arr = randomArray();
 console.log(arr);
@@ -42,7 +42,7 @@ for (let i = 0; i < arrIndex.length; i++) {
     if (arrIndex[i] === 3) {
         newIndex.push(i);
     }
-}
+};
 console.log(newIndex);
 
 
