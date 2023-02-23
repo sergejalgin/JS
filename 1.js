@@ -90,5 +90,5 @@ card.prepend(p);
 */
 const paragraphH6 = document.querySelector('h6');
 paragraphH6.remove();
-
+6
 
