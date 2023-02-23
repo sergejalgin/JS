@@ -31,11 +31,11 @@ const products = [
   },
 ];
 
-const withPhoto = products.filter(products => 'photos' in products === true &&
+const withPhoto = products.filter(products => 'photos' in products &&
   products.photos.length !== 0);
 console.log(withPhoto);
 
 
-const Sort = products.sort((minPrice, maxPrice) =>
-  minPrice.price - maxPrice.price);
-console.log(Sort);
+const sort = products.sort((a, b) =>
+  a.price - b.price);
+console.log(products);

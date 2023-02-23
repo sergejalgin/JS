@@ -23,8 +23,8 @@ const ru = [
 const days = {};
 
 for (let i = 0; i < en.length; i++) {
-    console.log(en[i]);
-    console.log(ru[i]);
+    // console.log(en[i]);
+    // console.log(ru[i]);
     days[en[i]] = ru[i];
 }
 console.log(days);
