@@ -43,7 +43,7 @@ menu.classList.remove('menu');
 "dropdown" следующую разметку:
   <a href="#">link</a>
 */
-const a = document.querySelector('div', '.dropdown');
+const a = document.querySelector('div.dropdown');
 a.insertAdjacentHTML('afterend', '<a href="#">link</a>');
 
 
@@ -55,6 +55,8 @@ a.insertAdjacentHTML('afterend', '<a href="#">link</a>');
 const idNew = document.querySelector('#dropdownMenuButton');
 idNew.setAttribute('id', 'superDropdown');
 
+idNew.id = 'superDropdown';
+
 // element.setAttribute(name, value);
 
 
@@ -63,7 +65,8 @@ idNew.setAttribute('id', 'superDropdown');
 6. Добавьте атрибут data-dd со значением 3 элементу у которого существует
 атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
 */
-const dataAttribute = document.querySelector('[aria-labelledby="dropdownMenuButton"]');
+const dataAttribute = document
+  .querySelector('[aria-labelledby="dropdownMenuButton"]');
 
 dataAttribute.dataset.dd = '3';
 
