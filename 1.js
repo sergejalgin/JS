@@ -55,7 +55,7 @@ a.insertAdjacentHTML('afterend', '<a href="#">link</a>');
 const idNew = document.querySelector('#dropdownMenuButton');
 idNew.setAttribute('id', 'superDropdown');
 
-element.setAttribute(name, value);
+// element.setAttribute(name, value);
 
 
 
