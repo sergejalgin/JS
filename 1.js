@@ -32,8 +32,8 @@ btn.classList.toggle('btn-secondary');
 присутствует класс "menu".
 */
 
-const btn = document.querySelector('.dropdown-menu');
-btn.classList.remove('menu');
+const menu = document.querySelector('.dropdown-menu');
+menu.classList.remove('menu');
 
 
 
@@ -43,8 +43,8 @@ btn.classList.remove('menu');
 "dropdown" следующую разметку:
   <a href="#">link</a>
 */
-const btn = document.querySelector('div', '.dropdown');
-btn.insertAdjacentHTML('afterend', '<a href="#">link</a>');
+const a = document.querySelector('div', '.dropdown');
+a.insertAdjacentHTML('afterend', '<a href="#">link</a>');
 
 
 
