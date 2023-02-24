@@ -32,7 +32,7 @@ for (let i = 0; i < newText.length; i++) {
 
 
 
-/*?????????????????
+/*
 3. Найти все элементы на странице с классом "card-link", которые лежат в
 элементе с классом "card-body" и вывести полученную коллекцию в консоль.
 */
@@ -49,7 +49,7 @@ console.log(element);
 4. Найти первый попавшийся элемент на странице у которого есть атрибут
 data-number со значением 50 и вывести его в консоль.
 */
-let number = document.querySelector('[data-number="50"]');
+const number = document.querySelector('[data-number="50"]');
 console.log(number);
 
 
@@ -90,5 +90,4 @@ card.prepend(p);
 */
 const paragraphH6 = document.querySelector('h6');
 paragraphH6.remove();
-6
 
