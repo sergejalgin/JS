@@ -42,6 +42,10 @@ document.addEventListener('click', function (e) {
     }
 });
 
+// const containStr = event.target.classList.contains('super_element') 
+//   ? 'присутствует' : 'отсутствует';
+// console.log(`Класс "super_element" ${containStr} в элементе "${event.target.tagName.toLowerCase()}".`);
+
 
 /*
 4. Сделайте, чтобы при наведении на textarea в консоли появлялось сообщение:
@@ -94,5 +98,5 @@ ulEl.addEventListener('click', function (e) {
 const liEl = document.querySelectorAll('li:nth-child(even)');
 
 liEl.forEach(element => {
-    element.style.backgroundColor = '#ccc'
+    element.style.backgroundColor = '#ccc';
 });
