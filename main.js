@@ -18,8 +18,8 @@ function createCard(cardObject) {
     clonefeaturedItemsTemplate.querySelector('.featuredText').textContent = cardObject.description;
     clonefeaturedItemsTemplate.querySelector('.featuredPrice').textContent = cardObject.price;
 
-    // clonefeaturedItemsTemplate.querySelector('[data-id]').textContent = cardObject.id;
-
+    clonefeaturedItemsTemplate.querySelector('.addToCart').dataset.id = cardObject.id;
+    // clonefeaturedItemsTemplate.querySelector('.addToCart').setAttribute("data-id", cardObject.id);
 };
 
 dataJson.forEach(object => {
