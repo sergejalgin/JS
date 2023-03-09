@@ -1,5 +1,5 @@
 const dataJson = JSON.parse(json)['goods'];
-console.log(dataJson);
+// console.log(dataJson);
 
 
 const featuredItemsEl = document.querySelector('.featuredItems');
@@ -20,6 +20,8 @@ function createCard(cardObject) {
 
     clonefeaturedItemsTemplate.querySelector('.addToCart').dataset.id = cardObject.id;
     // clonefeaturedItemsTemplate.querySelector('.addToCart').setAttribute("data-id", cardObject.id);
+
+    clonefeaturedItemsTemplate.querySelector('.addToCart').classList.add('btnAdd');
 };
 
 dataJson.forEach(object => {
